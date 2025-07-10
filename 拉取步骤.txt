@@ -1,0 +1,16 @@
+git clone git@
+git add ""
+git commit -m ""（提交到临时库）
+git push （仓库名） main
+仓库名查看：git remote
+
+
+
+非clone方式提交
+git remote add (你的库名) git@
+git pull (你的库名) HEAD
+
+
+
+创建分支：git branch (分支名)
+选择分支：git checkout (分支名)
